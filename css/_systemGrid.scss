@@ -2,30 +2,237 @@
 System Grid
 
 We use the Bootstrap system grid, every row can contain only 12 columns.
-How the Bootstrap grid system work across multiple devices with a handy table.
 
-.col-md-1 - md1
-.col-md-2 - md2
-.col-md-3 - md3
-.col-md-4 - md4
-.col-md-6 - md6
+Styleguide 1
+*/
+
+/*
+1 column
 
 Markup:
 <div class="row">
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
-  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="col-md-12">col-md-1</div>
 </div>
 
-Styleguide 1
+Styleguide 1.1
+*/
+
+/*
+2 columns
+
+Markup:
+<div class="row">
+  <div class="col-md-6">col-md-1</div>
+  <div class="col-md-6">col-md-1</div>
+</div>
+
+Styleguide 1.2
+*/
+
+/*
+3 columns
+
+Markup:
+<div class="row">
+  <div class="col-md-4">col-md-1</div>
+  <div class="col-md-4">col-md-1</div>
+  <div class="col-md-4">col-md-1</div>
+</div>
+
+Styleguide 1.3
+*/
+
+/*
+4 columns
+
+Markup:
+<div class="row">
+  <div class="col-md-3">col-md-1</div>
+  <div class="col-md-3">col-md-1</div>
+  <div class="col-md-3">col-md-1</div>
+  <div class="col-md-3">col-md-1</div>
+</div>
+
+Styleguide 1.4
+*/
+
+/*
+5 columns
+
+Markup:
+<div class="row">
+  <div class="col-md-3">col-md-1</div>
+  <div class="col-md-3">col-md-1</div>
+  <div class="col-md-3">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+</div>
+
+Styleguide 1.5
+*/
+
+/*
+6 columns
+
+Markup:
+<div class="row">
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+</div>
+
+Styleguide 1.6
+*/
+
+/*
+7 columns
+
+Markup:
+<div class="row">
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+</div>
+
+Styleguide 1.7
+*/
+
+/*
+8 columns
+
+Markup:
+<div class="row">
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+</div>
+
+Styleguide 1.8
+*/
+
+/*
+9 columns
+
+Markup:
+<div class="row">
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+</div>
+
+Styleguide 1.9
+*/
+
+/*
+10 columns
+
+Markup:
+<div class="row">
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+</div>
+
+Styleguide 1.10
+*/
+
+/*
+11 columns
+
+Markup:
+<div class="row">
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+</div>
+
+Styleguide 1.11
+*/
+
+/*
+12 colums
+
+Markup:
+<div class="row">
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+  <div class="col-md-1">col-md-1</div>
+</div>
+
+Styleguide 1.12
+*/
+
+/*
+6 colums
+
+Markup:
+<div class="row">
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+</div>
+
+Styleguide 1.2
+*/
+
+
+
+/*
+System Grid across multiple devices
+
+How the Bootstrap grid system work across multiple devices with a handy table with the differents classes, it will be responsive under the following break point.
+
+.col-xs- - Extra small (Auto), it will try to keep 12 colums align also in small devices.
+.col-sm- - Small (544px).
+.col-md- - Medium (768px).
+.col-lg- - Large (992px).
+.col-xl- - Extra large (1200px).
+
+Styleguide 1.13
 */
 

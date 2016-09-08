@@ -10,7 +10,15 @@
 
   <link rel="stylesheet" href="kss-assets/kss.css">
   <link rel="stylesheet" href="../css/style.scss">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body id="kss-node">
 
@@ -33,7 +41,7 @@
       </li>
       <li class="kss-nav__menu-item">
         <a class="kss-nav__menu-link" href="section-2.html">
-          <span class="kss-nav__ref">2</span><span class="kss-nav__name">Test</span>
+          <span class="kss-nav__ref">2</span><span class="kss-nav__name">NavBar</span>
         </a>
       </li>
     </ul>
@@ -52,7 +60,7 @@
                   #permalink
               </span>
             </span>
-            Test
+            NavBar
           </a>
         </h1>
 
@@ -79,33 +87,36 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="logo navbar-btn pull-left" href="/marta-gestionale/" title="Home">
+          <img src="http://dev.bitvarklab.com:88/marta-gestionale/sites/all/themes/bootstrap/logo.png" alt="Home">
+        </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon glyphicon glyphicon-user" aria-hidden="true"></span>Anagrafiche<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#"><span class="icon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>Anagrafica</a></li>
           </ul>
         </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon glyphicon glyphicon-file" aria-hidden="true"></span>Cartelle<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#"><span class="icon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>Cartella</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon glyphicon glyphicon-signal" aria-hidden="true"></span>Statistiche <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Prestazioni</a></li>
+            <li><a href="#">Utenze</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="icon glyphicon glyphicon-trash" aria-hidden="true"></span>Cestino</a></li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a href="#">Profilo utente</a></li>
+        <li><a href="#">Esci</a></li>
       </ul>
     </div>
   </div>
@@ -123,33 +134,36 @@
         &lt;span class&#x3D;&quot;icon-bar&quot;&gt;&lt;/span&gt;
         &lt;span class&#x3D;&quot;icon-bar&quot;&gt;&lt;/span&gt;
       &lt;/button&gt;
-      &lt;a class&#x3D;&quot;navbar-brand&quot; href&#x3D;&quot;#&quot;&gt;Brand&lt;/a&gt;
+      &lt;a class&#x3D;&quot;logo navbar-btn pull-left&quot; href&#x3D;&quot;/marta-gestionale/&quot; title&#x3D;&quot;Home&quot;&gt;
+          &lt;img src&#x3D;&quot;http://dev.bitvarklab.com:88/marta-gestionale/sites/all/themes/bootstrap/logo.png&quot; alt&#x3D;&quot;Home&quot;&gt;
+        &lt;/a&gt;
     &lt;/div&gt;
     &lt;div class&#x3D;&quot;collapse navbar-collapse&quot; id&#x3D;&quot;bs-example-navbar-collapse-2&quot;&gt;
       &lt;ul class&#x3D;&quot;nav navbar-nav&quot;&gt;
-        &lt;li class&#x3D;&quot;active&quot;&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Link &lt;span class&#x3D;&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
         &lt;li class&#x3D;&quot;dropdown&quot;&gt;
-          &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;dropdown-toggle&quot; data-toggle&#x3D;&quot;dropdown&quot; role&#x3D;&quot;button&quot; aria-expanded&#x3D;&quot;false&quot;&gt;Dropdown &lt;span class&#x3D;&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+          &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;dropdown-toggle&quot; data-toggle&#x3D;&quot;dropdown&quot; role&#x3D;&quot;button&quot; aria-expanded&#x3D;&quot;false&quot;&gt;&lt;span class&#x3D;&quot;icon glyphicon glyphicon-user&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/span&gt;Anagrafiche&lt;span class&#x3D;&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
           &lt;ul class&#x3D;&quot;dropdown-menu&quot; role&#x3D;&quot;menu&quot;&gt;
-            &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;
-            &lt;li class&#x3D;&quot;divider&quot;&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;
-            &lt;li class&#x3D;&quot;divider&quot;&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;One more separated link&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon glyphicon glyphicon-plus-sign&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/span&gt;Anagrafica&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/li&gt;
+        &lt;li class&#x3D;&quot;dropdown&quot;&gt;
+          &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;dropdown-toggle&quot; data-toggle&#x3D;&quot;dropdown&quot; role&#x3D;&quot;button&quot; aria-expanded&#x3D;&quot;false&quot;&gt;&lt;span class&#x3D;&quot;icon glyphicon glyphicon-file&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/span&gt;Cartelle&lt;span class&#x3D;&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+          &lt;ul class&#x3D;&quot;dropdown-menu&quot; role&#x3D;&quot;menu&quot;&gt;
+            &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon glyphicon glyphicon-plus-sign&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/span&gt;Cartella&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class&#x3D;&quot;dropdown&quot;&gt;
+          &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;dropdown-toggle&quot; data-toggle&#x3D;&quot;dropdown&quot; role&#x3D;&quot;button&quot; aria-expanded&#x3D;&quot;false&quot;&gt;&lt;span class&#x3D;&quot;icon glyphicon glyphicon-signal&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/span&gt;Statistiche &lt;span class&#x3D;&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+          &lt;ul class&#x3D;&quot;dropdown-menu&quot; role&#x3D;&quot;menu&quot;&gt;
+            &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Prestazioni&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Utenze&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;&lt;span class&#x3D;&quot;icon glyphicon glyphicon-trash&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/span&gt;Cestino&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
-      &lt;form class&#x3D;&quot;navbar-form navbar-left&quot; role&#x3D;&quot;search&quot;&gt;
-        &lt;div class&#x3D;&quot;form-group&quot;&gt;
-          &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; placeholder&#x3D;&quot;Search&quot;&gt;
-        &lt;/div&gt;
-        &lt;button type&#x3D;&quot;submit&quot; class&#x3D;&quot;btn btn-default&quot;&gt;Submit&lt;/button&gt;
-      &lt;/form&gt;
       &lt;ul class&#x3D;&quot;nav navbar-nav navbar-right&quot;&gt;
-        &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Profilo utente&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Esci&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
   &lt;/div&gt;
