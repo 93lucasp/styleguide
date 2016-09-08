@@ -1,0 +1,31 @@
+/*
+System Grid
+
+We use the Bootstrap system grid, every row can contain only 12 columns.
+How the Bootstrap grid system work across multiple devices with a handy table.
+
+.col-md-1 - md1
+.col-md-2 - md2
+.col-md-3 - md3
+.col-md-4 - md4
+.col-md-6 - md6
+
+Markup:
+<div class="row">
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+  <div class="{{modifier_class}}">col-md-1</div>
+</div>
+
+Styleguide 1
+*/
+
