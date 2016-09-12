@@ -1,0 +1,64 @@
+/*
+Tables 
+
+The table...
+
+Markup:
+<table class="table table-striped table-hover ">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Titolo</th>
+      <th>Data di nascita</th>
+      <th>Data di inserimento</th>
+      <th><span class="pull-left">Ultima modifica</span> <img class="img-responsive pull-left" src="http://dev.bitvarklab.com:88/marta-gestionale/misc/arrow-asc.png" width="13" height="13" alt="ordinamento crescente" title="ordinamento crescente"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+      <td>Column content</td>
+    </tr>
+  </tbody>
+</table> 
+
+Styleguide 6
+*/

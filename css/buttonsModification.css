@@ -1,0 +1,12 @@
+/*
+Buttons modification
+
+We use ....
+
+Markup:
+<a class="glyphicon glyphicon-size glyphicon-pencil btn btn-primary btn-sm" href="/marta-gestionale/node/169/edit" data-toggle="tooltip" title="" data-original-title="modifica"> </a>
+<a class="glyphicon glyphicon-size glyphicon-plus btn btn-primary btn-sm" href="/marta-gestionale/node/add/scheda-intervento?edit[field_intervento_ref_utente][und]=169" data-toggle="tooltip" title="" data-original-title="aggiungi cartella"> </a>
+<a class="glyphicon glyphicon-size glyphicon-file btn btn-primary btn-sm" href="/marta-gestionale/node/170" data-toggle="tooltip" title="" data-original-title="Cartella 17-05-2016"> </a>
+
+Styleguide 11
+*/

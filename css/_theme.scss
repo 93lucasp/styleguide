@@ -6,72 +6,7 @@ The theme we used is...
 Styleguide 2
 */
 
-/*
-NavBar
 
-The navbar...
 
-Markup:
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="logo navbar-btn pull-left" href="/marta-gestionale/" title="Home">
-          <img src="http://dev.bitvarklab.com:88/marta-gestionale/sites/all/themes/bootstrap/logo.png" alt="Home">
-        </a>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon glyphicon glyphicon-user" aria-hidden="true"></span>Anagrafiche<span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#"><span class="icon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>Anagrafica</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon glyphicon glyphicon-file" aria-hidden="true"></span>Cartelle<span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#"><span class="icon glyphicon glyphicon-plus-sign" aria-hidden="true"></span>Cartella</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon glyphicon glyphicon-signal" aria-hidden="true"></span>Statistiche <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Prestazioni</a></li>
-            <li><a href="#">Utenze</a></li>
-          </ul>
-        </li>
-        <li><a href="#"><span class="icon glyphicon glyphicon-trash" aria-hidden="true"></span>Cestino</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Profilo utente</a></li>
-        <li><a href="#">Esci</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
-Styleguide 2.1
-*/
 
-/*
-Heading
-
-All kinds of title...
-
-Markup:
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-<p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-
-Styleguide 2.2
-*/
