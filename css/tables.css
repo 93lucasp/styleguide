@@ -1,7 +1,7 @@
 /*
 Tables 
 
-The table...
+We use a striped table of Bootstrap with the hover effect on hover on the rows
 
 Markup:
 <table class="table table-striped table-hover ">

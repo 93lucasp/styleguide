@@ -1,7 +1,10 @@
 /*
 Forms
 
-The forms...
+We have differents kind of forms, in the following snippet we divided 3 different sections with the "hr" element.<br>
+<strong>In the first section</strong> we have the classic types of forms.<br>
+<strong>In the second section</strong> we had the format we mostly use for the edit form.<br>
+<strong>In third section</strong> we have the form that we use for the filters.<br>
 
 Markup:
 <form class="form-horizontal">
@@ -70,32 +73,35 @@ Markup:
 <hr>
 <div class="input-group">
   <div class="input-group-addon">Example</div>
-  <input class="text-full form-control form-text" type="text" id="edit-field-anagrafica-cognome-und-0-value" name="" value="Example" size="60" maxlength="255" />
+  <input class="text-full form-control form-text" type="text" id="" name="" value="Example" size="60" maxlength="255" />
 </div>
 <hr>
 <div class="view-filters row">
-  <form action="/marta-gestionale/anagrafiche" method="get" id="views-exposed-form-anagrafiche-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
-    <div class="views-exposed-widgets clearfix">
-      <div id="edit-field-anagrafica-cognome-value-wrapper" class="col-md-3 views-exposed-widget views-widget-filter-field_anagrafica_cognome_value">
-        <label for="edit-field-anagrafica-cognome-value"> Cognome </label>
-        <div class="views-widget">
-          <div class="form-type-textfield form-item-field-anagrafica-cognome-value form-item form-group">
-            <input class="form-control form-text" type="text" id="edit-field-anagrafica-cognome-value" name="field_anagrafica_cognome_value" value="" size="30" maxlength="128" />
+  <form action="" method="get" id="" accept-charset="UTF-8">
+    <div>
+      <div class="views-exposed-form">
+        <div class="views-exposed-widgets clearfix">
+          <div id="edit-field-anagrafica-cognome-value-wrapper" class="col-md-3 views-exposed-widget views-widget-filter-field_anagrafica_cognome_value">
+            <label for="edit-field-anagrafica-cognome-value"> Cognome </label>
+            <div class="views-widget">
+              <div class="form-type-textfield form-item-field-anagrafica-cognome-value form-item form-group">
+                <input class="form-control form-text" type="text" id="edit-field-anagrafica-cognome-value" name="field_anagrafica_cognome_value" value="" size="30" maxlength="128" />
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div id="edit-field-anagrafica-nome-value-wrapper" class="col-md-3 views-exposed-widget views-widget-filter-field_anagrafica_nome_value">
-        <label for="edit-field-anagrafica-nome-value"> Nome </label>
-        <div class="views-widget">
-          <div class="form-type-textfield form-item-field-anagrafica-nome-value form-item form-group">
-            <input class="form-control form-text" type="text" id="edit-field-anagrafica-nome-value" name="field_anagrafica_nome_value" value="" size="30" maxlength="128" />
+          <div id="edit-field-anagrafica-nome-value-wrapper" class="col-md-3 views-exposed-widget views-widget-filter-field_anagrafica_nome_value">
+            <label for="edit-field-anagrafica-nome-value"> Nome </label>
+            <div class="views-widget">
+              <div class="form-type-textfield form-item-field-anagrafica-nome-value form-item form-group">
+                <input class="form-control form-text" type="text" id="edit-field-anagrafica-nome-value" name="field_anagrafica_nome_value" value="" size="30" maxlength="128" />
+              </div>
+            </div>
           </div>
+          <div class="col-md-1 views-exposed-widget views-submit-button">
+            <button id="edit-submit-anagrafiche" name="" value="Cerca" type="submit" class="search-button btn btn-primary form-submit">Cerca</button>
+          </div>
+          <div class="col-md-5"></div>
         </div>
-      </div>
-      <div class="col-md-1 views-exposed-widget views-submit-button">
-        <button id="edit-submit-anagrafiche" name="" value="Cerca" type="submit" class="search-button btn btn-primary form-submit">Cerca</button>
-      </div>
-      <div class="offset-md-5">
       </div>
     </div>
   </form>    

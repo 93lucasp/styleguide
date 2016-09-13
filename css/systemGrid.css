@@ -1,7 +1,24 @@
 /*
-System Grid
+Grid System
 
-We use the Bootstrap system grid, every row can contain only 12 columns.
+We use the Bootstrap's grid system and it is an important concept to understand.<br>
+<strong>How the grid system works?</strong><br>
+We have two important components: ROW and COLUMN.
+* Rows classes are horizontal groups of columns that allow you to align correctly the columns.
+The content should be the columns, and only columns may be immediate children of rows.
+* Columns classes indicate the number of columns you would like to use out of the possible 12 per 
+row.
+Column widths are set in percentages, so they’re always fluid or sized relative to their parent element.
+Columns have some horizontal padding by default.
+
+<strong>How the grid system works across multiple devices?</strong><br>
+With a handy table with the differents classes, it will be responsive under the following break point.
+
+.col-xs- - Extra small (Auto), it will try to keep 12 colums align also in small devices.
+.col-sm- - Small (544px).
+.col-md- - Medium (768px).
+.col-lg- - Large (992px).
+.col-xl- - Extra large (1200px).
 
 Styleguide 1
 */
@@ -218,21 +235,5 @@ Markup:
 </div>
 
 Styleguide 1.2
-*/
-
-
-
-/*
-System Grid across multiple devices
-
-How the Bootstrap grid system work across multiple devices with a handy table with the differents classes, it will be responsive under the following break point.
-
-.col-xs- - Extra small (Auto), it will try to keep 12 colums align also in small devices.
-.col-sm- - Small (544px).
-.col-md- - Medium (768px).
-.col-lg- - Large (992px).
-.col-xl- - Extra large (1200px).
-
-Styleguide 1.13
 */
 

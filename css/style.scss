@@ -22,5 +22,30 @@ hr {
 
 .kss-modifier__wrapper {
 	background-color: #272B30;
+
 }
+
+.kss-nav__menu-item {
+	background-color: lightgray;
+	margin-bottom: 2px!important;
+	padding: 2px 6px;
+	border-radius: 3px;
+}
+
+.kss-nav__menu-item:hover {
+	background-color: darkgray;
+	margin-bottom: 2px!important;
+	padding: 2px 6px;
+	border-radius: 3px;
+}
+.kss-nav__menu-item a {
+	color: #000!important;
+	text-decoration: none!important;
+	width: 200px!important;
+}
+
+
+
+
+
 

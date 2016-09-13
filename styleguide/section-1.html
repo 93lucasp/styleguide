@@ -20,7 +20,7 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css" rel="stylesheet" integrity="sha384-RpX8okQqCyUNG7PlOYNybyJXYTtGQH+7rIKiVvg1DLg6jahLEk47VvpUyS+E2/uJ" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css" rel="stylesheet" integrity="sha384-RpX8okQqCyUNG7PlOYNybyJXYTtGQH+7rIKiVvg1DLg6jahLEk47VvpUyS+E2/uJ" crossorigin="anonymous">
 </head>
 <body id="kss-node">
 
@@ -38,7 +38,7 @@
       </li>
       <li class="kss-nav__menu-item">
         <a class="kss-nav__menu-link" href="section-1.html">
-          <span class="kss-nav__ref">1</span><span class="kss-nav__name">System Grid</span>
+          <span class="kss-nav__ref">1</span><span class="kss-nav__name">Grid System</span>
         </a>
             <ul class="kss-nav__menu-child">
               <li class="kss-nav__menu-item">
@@ -50,13 +50,13 @@
               <li class="kss-nav__menu-item">
                 <a class="kss-nav__menu-link" href="section-1.html#kssref-1-2">
                   <span class="kss-nav__ref ">1.2</span
-                  ><span class="kss-nav__name">6 colums</span>
+                  ><span class="kss-nav__name">2 columns</span>
                 </a>
               </li>
               <li class="kss-nav__menu-item">
                 <a class="kss-nav__menu-link" href="section-1.html#kssref-1-2">
                   <span class="kss-nav__ref ">1.2</span
-                  ><span class="kss-nav__name">2 columns</span>
+                  ><span class="kss-nav__name">6 colums</span>
                 </a>
               </li>
               <li class="kss-nav__menu-item">
@@ -119,12 +119,6 @@
                   ><span class="kss-nav__name">12 colums</span>
                 </a>
               </li>
-              <li class="kss-nav__menu-item">
-                <a class="kss-nav__menu-link" href="section-1.html#kssref-1-13">
-                  <span class="kss-nav__ref ">1.13</span
-                  ><span class="kss-nav__name">System Grid across multiple devices</span>
-                </a>
-              </li>
             </ul>
       </li>
       <li class="kss-nav__menu-item">
@@ -159,7 +153,7 @@
       </li>
       <li class="kss-nav__menu-item">
         <a class="kss-nav__menu-link" href="section-8.html">
-          <span class="kss-nav__ref">8</span><span class="kss-nav__name">Buttons Bootstrap</span>
+          <span class="kss-nav__ref">8</span><span class="kss-nav__name">Buttons</span>
         </a>
       </li>
       <li class="kss-nav__menu-item">
@@ -175,6 +169,11 @@
       <li class="kss-nav__menu-item">
         <a class="kss-nav__menu-link" href="section-11.html">
           <span class="kss-nav__ref">11</span><span class="kss-nav__name">Buttons modification</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a class="kss-nav__menu-link" href="section-12.html">
+          <span class="kss-nav__ref">12</span><span class="kss-nav__name">Icons</span>
         </a>
       </li>
     </ul>
@@ -193,20 +192,65 @@
                   #permalink
               </span>
             </span>
-            System Grid
+            Grid System
           </a>
         </h1>
 
           <div class="kss-description">
-            <p>We use the Bootstrap system grid, every row can contain only 12 columns.</p>
+            <p>We use the Bootstrap&#39;s grid system and it is an important concept to understand.<br>
+<strong>How the grid system works?</strong><br>
+We have two important components: ROW and COLUMN.</p>
+<ul>
+<li>Rows classes are horizontal groups of columns that allow you to align correctly the columns.
+The content should be the columns, and only columns may be immediate children of rows.</li>
+<li>Columns classes indicate the number of columns you would like to use out of the possible 12 per
+row.
+Column widths are set in percentages, so they’re always fluid or sized relative to their parent element.
+Columns have some horizontal padding by default.</li>
+</ul>
+<p><strong>How the grid system works across multiple devices?</strong><br>
+With a handy table with the differents classes, it will be responsive under the following break point.</p>
 
           </div>
 
+          <div class="kss-parameters__title">Parameters:</div>
+          <ul class="kss-parameters">
+            <li class="kss-parameters__item">
+              <div class="kss-parameters__name"><code>.col-xs-</code></div>
+              <div class="kss-parameters__description">
+                Extra small (Auto), it will try to keep 12 colums align also in small devices.
+              </div>
+            </li>
+            <li class="kss-parameters__item">
+              <div class="kss-parameters__name"><code>.col-sm-</code></div>
+              <div class="kss-parameters__description">
+                Small (544px).
+              </div>
+            </li>
+            <li class="kss-parameters__item">
+              <div class="kss-parameters__name"><code>.col-md-</code></div>
+              <div class="kss-parameters__description">
+                Medium (768px).
+              </div>
+            </li>
+            <li class="kss-parameters__item">
+              <div class="kss-parameters__name"><code>.col-lg-</code></div>
+              <div class="kss-parameters__description">
+                Large (992px).
+              </div>
+            </li>
+            <li class="kss-parameters__item">
+              <div class="kss-parameters__name"><code>.col-xl-</code></div>
+              <div class="kss-parameters__description">
+                Extra large (1200px).
+              </div>
+            </li>
+          </ul>
       </div>
 
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 1
+          Source: <code>systemGrid.css</code>, line 1
         </div>
 
     </div>
@@ -248,51 +292,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 9
-        </div>
-
-    </section>
-    <section id="kssref-1-2" class="kss-section kss-section--depth-2">
-
-      <div class="kss-style">
-        <h2 class="kss-title kss-title--level-2">
-          <a class="kss-title__permalink" href="#kssref-1-2">
-            <span class="kss-title__ref">
-              1.2
-              <span class="kss-title__permalink-hash">
-                  #permalink
-              </span>
-            </span>
-            6 colums
-          </a>
-        </h2>
-
-
-      </div>
-
-        <div class="kss-modifier__wrapper">
-          <div class="kss-modifier__heading kss-style">
-            Example
-          </div>
-
-
-          <div class="kss-modifier__example">
-            <div class="row">
-  <div class="col-md-6">col-md-1</div>
-  <div class="col-md-6">col-md-1</div>
-</div>
-          </div>
-
-        </div>
-          <div class="kss-markup kss-style">
-            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class&#x3D;&quot;row&quot;&gt;
-  &lt;div class&#x3D;&quot;col-md-6&quot;&gt;col-md-1&lt;/div&gt;
-  &lt;div class&#x3D;&quot;col-md-6&quot;&gt;col-md-1&lt;/div&gt;
-&lt;/div&gt;</code></pre>
-          </div>
-
-        <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 207
+          Source: <code>systemGrid.css</code>, line 26
         </div>
 
     </section>
@@ -322,21 +322,81 @@
 
           <div class="kss-modifier__example">
             <div class="row">
-  <div class="col-md-6">col-md-1</div>
-  <div class="col-md-6">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
 </div>
           </div>
 
         </div>
           <div class="kss-markup kss-style">
             <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class&#x3D;&quot;row&quot;&gt;
-  &lt;div class&#x3D;&quot;col-md-6&quot;&gt;col-md-1&lt;/div&gt;
-  &lt;div class&#x3D;&quot;col-md-6&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
 &lt;/div&gt;</code></pre>
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 20
+          Source: <code>systemGrid.css</code>, line 37
+        </div>
+
+    </section>
+    <section id="kssref-1-2" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-1-2">
+            <span class="kss-title__ref">
+              1.2
+              <span class="kss-title__permalink-hash">
+                  #permalink
+              </span>
+            </span>
+            6 colums
+          </a>
+        </h2>
+
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <div class="row">
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+  <div class="col-md-2">col-md-1</div>
+</div>
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class&#x3D;&quot;row&quot;&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+  &lt;div class&#x3D;&quot;col-md-2&quot;&gt;col-md-1&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>systemGrid.css</code>, line 224
         </div>
 
     </section>
@@ -382,7 +442,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 32
+          Source: <code>systemGrid.css</code>, line 49
         </div>
 
     </section>
@@ -430,7 +490,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 45
+          Source: <code>systemGrid.css</code>, line 62
         </div>
 
     </section>
@@ -480,7 +540,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 59
+          Source: <code>systemGrid.css</code>, line 76
         </div>
 
     </section>
@@ -532,7 +592,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 74
+          Source: <code>systemGrid.css</code>, line 91
         </div>
 
     </section>
@@ -586,7 +646,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 90
+          Source: <code>systemGrid.css</code>, line 107
         </div>
 
     </section>
@@ -642,7 +702,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 107
+          Source: <code>systemGrid.css</code>, line 124
         </div>
 
     </section>
@@ -700,7 +760,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 125
+          Source: <code>systemGrid.css</code>, line 142
         </div>
 
     </section>
@@ -760,7 +820,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 144
+          Source: <code>systemGrid.css</code>, line 161
         </div>
 
     </section>
@@ -822,7 +882,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 164
+          Source: <code>systemGrid.css</code>, line 181
         </div>
 
     </section>
@@ -886,68 +946,7 @@
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 185
-        </div>
-
-    </section>
-    <section id="kssref-1-13" class="kss-section kss-section--depth-2">
-
-      <div class="kss-style">
-        <h2 class="kss-title kss-title--level-2">
-          <a class="kss-title__permalink" href="#kssref-1-13">
-            <span class="kss-title__ref">
-              1.13
-              <span class="kss-title__permalink-hash">
-                  #permalink
-              </span>
-            </span>
-            System Grid across multiple devices
-          </a>
-        </h2>
-
-          <div class="kss-description">
-            <p>How the Bootstrap grid system work across multiple devices with a handy table with the differents classes, it will be responsive under the following break point.</p>
-
-          </div>
-
-          <div class="kss-parameters__title">Parameters:</div>
-          <ul class="kss-parameters">
-            <li class="kss-parameters__item">
-              <div class="kss-parameters__name"><code>.col-xs-</code></div>
-              <div class="kss-parameters__description">
-                Extra small (Auto), it will try to keep 12 colums align also in small devices.
-              </div>
-            </li>
-            <li class="kss-parameters__item">
-              <div class="kss-parameters__name"><code>.col-sm-</code></div>
-              <div class="kss-parameters__description">
-                Small (544px).
-              </div>
-            </li>
-            <li class="kss-parameters__item">
-              <div class="kss-parameters__name"><code>.col-md-</code></div>
-              <div class="kss-parameters__description">
-                Medium (768px).
-              </div>
-            </li>
-            <li class="kss-parameters__item">
-              <div class="kss-parameters__name"><code>.col-lg-</code></div>
-              <div class="kss-parameters__description">
-                Large (992px).
-              </div>
-            </li>
-            <li class="kss-parameters__item">
-              <div class="kss-parameters__name"><code>.col-xl-</code></div>
-              <div class="kss-parameters__description">
-                Extra large (1200px).
-              </div>
-            </li>
-          </ul>
-      </div>
-
-
-        <div class="kss-source kss-style">
-          Source: <code>_systemGrid.scss</code>, line 225
+          Source: <code>systemGrid.css</code>, line 202
         </div>
 
     </section>
