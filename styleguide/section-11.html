@@ -9,8 +9,9 @@
   <meta name="viewport" content="width=device-width">
 
   <link rel="stylesheet" href="kss-assets/kss.css">
-  <link rel="stylesheet" href="../css/style.scss">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/ext-core/3.1.0/ext-core.js"></script>
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -88,12 +89,7 @@
       </li>
       <li class="kss-nav__menu-item">
         <a class="kss-nav__menu-link" href="section-11.html">
-          <span class="kss-nav__ref">11</span><span class="kss-nav__name">Buttons modification</span>
-        </a>
-      </li>
-      <li class="kss-nav__menu-item">
-        <a class="kss-nav__menu-link" href="section-12.html">
-          <span class="kss-nav__ref">12</span><span class="kss-nav__name">Icons</span>
+          <span class="kss-nav__ref">11</span><span class="kss-nav__name">Icons</span>
         </a>
       </li>
     </ul>
@@ -112,17 +108,13 @@
                   #permalink
               </span>
             </span>
-            Buttons modification
+            Icons
           </a>
         </h1>
 
           <div class="kss-description">
-            <p>For the modification section we use 3 differents type of buttons that we structured in this way.<br>
-For the editing we use the glyphicon-pencil icon. <br>
-To add a folder we use the glyphicon-plus icon. <br>
-To check a folder we use the glyphicon-file icon. <br>
-How we can see we don&#39;t use a real button tag but we add the btn class to the link and it will takes
-the apparence of a button!</p>
+            <p>To see the full list of icons <a href="http://getbootstrap.com/components/#glyphicons-glyphs">click here</a><br>
+In the following snippet we will see an example how to use an icon with Bootstrap.</p>
 
           </div>
 
@@ -135,20 +127,16 @@ the apparence of a button!</p>
 
 
           <div class="kss-modifier__example">
-            <a class="glyphicon glyphicon-size glyphicon-pencil btn btn-primary btn-sm" href="" data-toggle="tooltip" title="Modifica" data-original-title="Modifica"> </a>
-<a class="glyphicon glyphicon-size glyphicon-plus btn btn-primary btn-sm" href="" data-toggle="tooltip" title="Aggiungi cartella" data-original-title="Aggiungi cartella"> </a>
-<a class="glyphicon glyphicon-size glyphicon-file btn btn-primary btn-sm" href="" data-toggle="Cartella..." data-original-title="Cartella..."> </a>
+            <span class="glyphicon glyphicon-glass"></span>
           </div>
 
         </div>
           <div class="kss-markup kss-style">
-            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;a class&#x3D;&quot;glyphicon glyphicon-size glyphicon-pencil btn btn-primary btn-sm&quot; href&#x3D;&quot;&quot; data-toggle&#x3D;&quot;tooltip&quot; title&#x3D;&quot;Modifica&quot; data-original-title&#x3D;&quot;Modifica&quot;&gt; &lt;/a&gt;
-&lt;a class&#x3D;&quot;glyphicon glyphicon-size glyphicon-plus btn btn-primary btn-sm&quot; href&#x3D;&quot;&quot; data-toggle&#x3D;&quot;tooltip&quot; title&#x3D;&quot;Aggiungi cartella&quot; data-original-title&#x3D;&quot;Aggiungi cartella&quot;&gt; &lt;/a&gt;
-&lt;a class&#x3D;&quot;glyphicon glyphicon-size glyphicon-file btn btn-primary btn-sm&quot; href&#x3D;&quot;&quot; data-toggle&#x3D;&quot;Cartella...&quot; data-original-title&#x3D;&quot;Cartella...&quot;&gt; &lt;/a&gt;</code></pre>
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;span class&#x3D;&quot;glyphicon glyphicon-glass&quot;&gt;&lt;/span&gt;</code></pre>
           </div>
 
         <div class="kss-source kss-style">
-          Source: <code>buttonsModification.css</code>, line 1
+          Source: <code>icons.css</code>, line 1
         </div>
 
     </div>
@@ -165,11 +153,7 @@ the apparence of a button!</p>
     className: 'is-in-viewport'
   });
 </script>
-<script>
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  });
-</script>
+
 
 
 <!-- Automatically built using <a href="https://github.com/kss-node/kss-node">kss-node</a>. -->

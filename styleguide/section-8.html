@@ -9,8 +9,9 @@
   <meta name="viewport" content="width=device-width">
 
   <link rel="stylesheet" href="kss-assets/kss.css">
-  <link rel="stylesheet" href="../css/style.scss">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/ext-core/3.1.0/ext-core.js"></script>
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -75,6 +76,20 @@
         <a class="kss-nav__menu-link" href="section-8.html">
           <span class="kss-nav__ref">8</span><span class="kss-nav__name">Buttons</span>
         </a>
+            <ul class="kss-nav__menu-child">
+              <li class="kss-nav__menu-item">
+                <a class="kss-nav__menu-link" href="section-8.html#kssref-8-1">
+                  <span class="kss-nav__ref ">8.1</span
+                  ><span class="kss-nav__name">Buttons Bootstrap</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item">
+                <a class="kss-nav__menu-link" href="section-8.html#kssref-8-2">
+                  <span class="kss-nav__ref ">8.2</span
+                  ><span class="kss-nav__name">Buttons modification</span>
+                </a>
+              </li>
+            </ul>
       </li>
       <li class="kss-nav__menu-item">
         <a class="kss-nav__menu-link" href="section-9.html">
@@ -88,12 +103,7 @@
       </li>
       <li class="kss-nav__menu-item">
         <a class="kss-nav__menu-link" href="section-11.html">
-          <span class="kss-nav__ref">11</span><span class="kss-nav__name">Buttons modification</span>
-        </a>
-      </li>
-      <li class="kss-nav__menu-item">
-        <a class="kss-nav__menu-link" href="section-12.html">
-          <span class="kss-nav__ref">12</span><span class="kss-nav__name">Icons</span>
+          <span class="kss-nav__ref">11</span><span class="kss-nav__name">Icons</span>
         </a>
       </li>
     </ul>
@@ -115,6 +125,60 @@
             Buttons
           </a>
         </h1>
+
+          <div class="kss-description">
+            <p>How you can see in the section 8.1 and 8.2 we have 2 kind of buttons,
+the buttons of bootstrap and the buttons that we created from an &quot;a&quot; tag simply
+giving the class &quot;btn&quot;.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-default&quot;&gt;Default&lt;/button&gt;
+&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>buttons.css</code>, line 1
+        </div>
+
+    </div>
+    <section id="kssref-8-1" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-8-1">
+            <span class="kss-title__ref">
+              8.1
+              <span class="kss-title__permalink-hash">
+                  #permalink
+              </span>
+            </span>
+            Buttons Bootstrap
+          </a>
+        </h2>
 
           <div class="kss-description">
             <p>The most used Bootstrap&#39;s buttons are the following.</p>
@@ -152,7 +216,60 @@
           Source: <code>buttonsBootstrap.css</code>, line 1
         </div>
 
-    </div>
+    </section>
+    <section id="kssref-8-2" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-8-2">
+            <span class="kss-title__ref">
+              8.2
+              <span class="kss-title__permalink-hash">
+                  #permalink
+              </span>
+            </span>
+            Buttons modification
+          </a>
+        </h2>
+
+          <div class="kss-description">
+            <p>For the modification section we use 3 differents type of buttons that we structured in this way.<br></p>
+<ul>
+<li>For the editing we use the glyphicon-pencil icon. <br></li>
+<li>To add a folder we use the glyphicon-plus icon. <br></li>
+<li>To check a folder we use the glyphicon-file icon. <br>
+How we can see we don&#39;t use a real button tag but we add the btn class to the link and it will takes
+the apparence of a button!</li>
+</ul>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <a class="glyphicon glyphicon-size glyphicon-pencil btn btn-primary btn-sm" href=""> </a>
+<a class="glyphicon glyphicon-size glyphicon-plus btn btn-primary btn-sm" href=""> </a>
+<a class="glyphicon glyphicon-size glyphicon-file btn btn-primary btn-sm" href=""> </a>
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;a class&#x3D;&quot;glyphicon glyphicon-size glyphicon-pencil btn btn-primary btn-sm&quot; href&#x3D;&quot;&quot;&gt; &lt;/a&gt;
+&lt;a class&#x3D;&quot;glyphicon glyphicon-size glyphicon-plus btn btn-primary btn-sm&quot; href&#x3D;&quot;&quot;&gt; &lt;/a&gt;
+&lt;a class&#x3D;&quot;glyphicon glyphicon-size glyphicon-file btn btn-primary btn-sm&quot; href&#x3D;&quot;&quot;&gt; &lt;/a&gt;</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>buttonsModification.css</code>, line 1
+        </div>
+
+    </section>
 </article>
 
 <!-- SCRIPTS -->

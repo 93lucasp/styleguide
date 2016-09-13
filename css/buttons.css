@@ -1,7 +1,9 @@
 /*
-Buttons Bootstrap
+Buttons
 
-The most used Bootstrap's buttons are the following.
+How you can see in the section 8.1 and 8.2 we have 2 kind of buttons, 
+the buttons of bootstrap and the buttons that we created from an "a" tag simply 
+giving the class "btn".
 
 Markup:
 <button type="button" class="btn btn-default">Default</button>
@@ -11,5 +13,5 @@ Markup:
 <button type="button" class="btn btn-warning">Warning</button>
 <button type="button" class="btn btn-danger">Danger</button>
 
-Styleguide 8.1
+Styleguide 8
 */

@@ -1,7 +1,11 @@
 /*
 Icons
 
-To see the full list of icons <a href="http://getbootstrap.com/components/#glyphicons-glyphs">click here</a>
+To see the full list of icons <a href="http://getbootstrap.com/components/#glyphicons-glyphs">click here</a><br>
+In the following snippet we will see an example how to use an icon with Bootstrap.
 
-Styleguide 12
+Markup:
+<span class="glyphicon glyphicon-glass"></span>
+
+Styleguide 11
 */

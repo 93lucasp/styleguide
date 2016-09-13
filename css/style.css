@@ -1,5 +1,5 @@
-.test {
-  color:red;
+.kss-title__permalink:hover {
+	color:#000!important;
 }
 
 #kss-node .kss-section {
@@ -7,14 +7,9 @@
     margin-bottom: 68px;
 }
 
-.margin-left-14 {
-	margin-left: 14px; 
-}
-
 .search-button {
 	margin-top: 25px;
 }
-
 
 hr {
 	border: 1px solid lightgray!important;
@@ -28,7 +23,7 @@ hr {
 .kss-nav__menu-item {
 	background-color: lightgray;
 	margin-bottom: 2px!important;
-	padding: 2px 6px;
+	padding: 2px 4px;
 	border-radius: 3px;
 }
 
@@ -43,9 +38,3 @@ hr {
 	text-decoration: none!important;
 	width: 200px!important;
 }
-
-
-
-
-
-
