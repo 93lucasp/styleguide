@@ -1,6 +1,6 @@
 # styleguide
 
-Guida di stile gestionale BitVark prova
+Guida di stile gestionale BitVark
 
 # how to install it:
 
