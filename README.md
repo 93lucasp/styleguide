@@ -1,6 +1,6 @@
 # styleguide
 
-I tried to do a style guide from a web site!
+Guida di stile gestionale BitVark
 
 # how to install it:
 
